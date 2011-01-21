@@ -19,7 +19,7 @@
   <remote name="alljoyn" fetch="git://github.com/alljoyn/" review=""/>
   <remote name="caf" fetch="git://codeaurora.org/" review=""/>
 
-  <default revision="master" remote="alljoyn" />
+  <default revision="B01.08" remote="alljoyn" />
 
   <project path="build_core" name="build_core"/>
   <project path="manifest" name="manifest"/>
