@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!--
-      Copyright 2010 - 2011, Qualcomm Innovation Center, Inc.
+        Copyright 2010 - 2011, Qualcomm Innovation Center, Inc.
 
-      Licensed under the Apache License, Version 2.0 (the "License");
-      you may not use this file except in compliance with the License.
-      You may obtain a copy of the License at
+        Licensed under the Apache License, Version 2.0 (the "License");
+        you may not use this file except in compliance with the License.
+        You may obtain a copy of the License at
 
-      http://www.apache.org/licenses/LICENSE-2.0
+        http://www.apache.org/licenses/LICENSE-2.0
 
    Unless required by applicable law or agreed to in writing, software
    distributed under the License is distributed on an "AS IS" BASIS,
@@ -16,10 +16,10 @@
    limitations under the License.
   -->
 
-  <remote name="alljoyn" fetch="git://github.com/alljoyn/" review=""/>
+  <remote name="github" fetch="git://github.com/alljoyn/" review=""/>
   <remote name="caf" fetch="git://codeaurora.org/" review=""/>
 
-  <default revision="master" remote="alljoyn" />
+  <default revision="master" remote="github" />
 
   <project path="build_core" name="build_core"/>
   <project path="manifest" name="manifest"/>
