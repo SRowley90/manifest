@@ -22,7 +22,7 @@
   <default revision="B01.08" remote="alljoyn" />
 
   <project path="build_core" name="build_core"/>
-  <project path="manifest" name="manifest"/>
+  <project path="manifest" name="manifest" revision="V01.08.00"/>
   <project path="common" name="common"/>
   <project path="alljoyn_core" name="alljoyn_core">
     <copyfile src="SConstruct.top" dest="SConstruct"/>
