@@ -26,6 +26,7 @@
   <project path="common" name="common"/>
   <project path="alljoyn_core" name="alljoyn_core">
     <copyfile src="SConstruct.top" dest="SConstruct"/>
+    <copyfile src="docs/README.top" dest="README.txt"/>
   </project>
   <project path="alljoyn_java" name="alljoyn_java"/>
   <project path="stlport" name="stlport"/>
