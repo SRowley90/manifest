@@ -21,15 +21,15 @@
 
   <default revision="R01.08" remote="github" />
 
-  <project path="build_core" name="build_core"/>
+  <project path="build_core" name="build_core" revision="8f690f8423b9727bc855d40f5511cd823cf5c843"/>
   <project path="manifest" name="manifest"/>
-  <project path="common" name="common"/>
-  <project path="alljoyn_core" name="alljoyn_core">
+  <project path="common" name="common" revision="3141eafa936821ac9fdc4d0a2509b03ca4b81952"/>
+  <project path="alljoyn_core" name="alljoyn_core" revision="ba3c7984656f32d352e5619d7db31c43a80b5190">
     <copyfile src="SConstruct.top" dest="SConstruct"/>
     <copyfile src="docs/README.top" dest="README.txt"/>
   </project>
-  <project path="alljoyn_java" name="alljoyn_java"/>
-  <project path="stlport" name="stlport"/>
+  <project path="alljoyn_java" name="alljoyn_java" revision="f664a78aa6a0c9ac732c892e3977c2f98ee05ddc"/>
+  <project path="stlport" name="stlport" revision="4a18dee55002e13f63ef07980486d64460669419"/>
   <project path="stlport/cne" name="platform/external/connectivity" revision="95a15ba80639ed2289fdd0babef5408711c47d58" remote="caf"/>
 
 </manifest>
