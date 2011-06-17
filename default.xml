@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!--
-        Copyright 2010 - 2011, Qualcomm Innovation Center, Inc.
+<!--
+Copyright 2010-2011, Qualcomm Innovation Center, Inc.
 
-        Licensed under the Apache License, Version 2.0 (the "License");
-        you may not use this file except in compliance with the License.
-        You may obtain a copy of the License at
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
 
-        http://www.apache.org/licenses/LICENSE-2.0
+       http://www.apache.org/licenses/LICENSE-2.0
 
    Unless required by applicable law or agreed to in writing, software
    distributed under the License is distributed on an "AS IS" BASIS,
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
-  -->
+-->
 
   <remote name="github" fetch="git://github.com/alljoyn/" review=""/>
   <remote name="caf" fetch="git://codeaurora.org/" review=""/>
 
-  <default revision="B02.00.01" remote="github" />
+  <default revision="R02.00.01" remote="github" />
 
-  <project path="build_core" name="build_core"/>
+  <project path="build_core" name="build_core" revision="5870ebab38b4cc772e0614591381469a0df5c064"/>
   <project path="manifest" name="manifest"/>
-  <project path="common" name="common"/>
-  <project path="alljoyn_core" name="alljoyn_core">
+  <project path="common" name="common" revision="41a9202fe88a99de57e0107e97c1eeaaa335c31c"/>
+  <project path="alljoyn_core" name="alljoyn_core" revision="b383a0ccb4ed661cd058431ef41ffad865679d3d">
     <copyfile src="SConstruct.top" dest="SConstruct"/>
     <copyfile src="docs/README.top" dest="README.txt"/>
   </project>
-  <project path="alljoyn_java" name="alljoyn_java"/>
-  <project path="stlport" name="stlport"/>
+  <project path="alljoyn_java" name="alljoyn_java" revision="7914ad8530353e6c24833c8bb71c4dd2b8f5c66b"/>
+  <project path="stlport" name="stlport" revision="4a18dee55002e13f63ef07980486d64460669419"/>
   <project path="stlport/cne" name="platform/external/connectivity" revision="95a15ba80639ed2289fdd0babef5408711c47d58" remote="caf"/>
 
 </manifest>
