@@ -30,6 +30,6 @@
   </project>
   <project path="alljoyn_java" name="alljoyn_java"/>
   <project path="stlport" name="stlport"/>
-  <project path="stlport/cne" name="platform/external/connectivity" revision="95a15ba80639ed2289fdd0babef5408711c47d58" remote="caf"/>
+  <project path="stlport/cne" name="platform/external/connectivity" revision="017fb58626329821c19f32fa6f6946b9f383af79" remote="caf"/>
 
 </manifest>
