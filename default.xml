@@ -19,17 +19,17 @@
   <remote name="github" fetch="git://github.com/alljoyn/" review=""/>
   <remote name="caf" fetch="git://codeaurora.org/" review=""/>
 
-  <default revision="B02.01.00" remote="github" />
+  <default revision="R02.01" remote="github" />
 
-  <project path="build_core" name="build_core"/>
+  <project path="build_core" name="build_core" revision="52e196101f41344b0bd5e6a8f5e445b972dbb4f8"/>
   <project path="manifest" name="manifest"/>
-  <project path="common" name="common"/>
-  <project path="alljoyn_core" name="alljoyn_core">
+  <project path="common" name="common" revision="86fe5295e2ff653734b7cc0769c6984aff1ee54a"/>
+  <project path="alljoyn_core" name="alljoyn_core" revision="4f66851d56db2ed3659b6a4b3454b8670bbce832">
     <copyfile src="SConstruct.top" dest="SConstruct"/>
     <copyfile src="docs/README.top" dest="README.txt"/>
   </project>
-  <project path="alljoyn_java" name="alljoyn_java"/>
-  <project path="stlport" name="stlport"/>
+  <project path="alljoyn_java" name="alljoyn_java" revision="06397ee5efca26da8ed8ee6f6221e5e5ed0410a0"/>
+  <project path="stlport" name="stlport" revision="4a18dee55002e13f63ef07980486d64460669419"/>
   <project path="stlport/cne" name="platform/external/connectivity" revision="017fb58626329821c19f32fa6f6946b9f383af79" remote="caf"/>
 
 </manifest>
